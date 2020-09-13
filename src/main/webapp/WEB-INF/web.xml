@@ -11,9 +11,20 @@
   	<description></description>
   	<servlet-class>com.jayram.controller.GetStudentController</servlet-class>
   </servlet>
-
+  <servlet>
+  	<servlet-name>AddStudentController</servlet-name>
+  	<display-name>AddStudentController</display-name>
+  	<description></description>
+  	<servlet-class>com.jayram.controller.AddStudentController</servlet-class>
+  </servlet>
   <servlet-mapping>
   	<servlet-name>GetStudentController</servlet-name>
   	<url-pattern>/getStudent</url-pattern>
   </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AddStudentController</servlet-name>
+  	<url-pattern>/addStudent</url-pattern>
+  </servlet-mapping>
+  
+
 </web-app>

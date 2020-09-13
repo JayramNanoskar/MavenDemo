@@ -6,7 +6,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Insert title here</title>
 </head>
-<body bgcolor="blue">
+<body>
 	<%
 		Student s = (Student)request.getAttribute("student");
 		out.println(s);
