@@ -9,7 +9,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import com.jayram.dao.CrudDao;
-import com.jayram.model.Student;
 
 /**
  * Servlet implementation class AddStudentController
